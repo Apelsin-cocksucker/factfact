@@ -14,7 +14,7 @@ int main()
 		answ=Input();
 		if (answ == "n" || answ == "N") break;
 		cout <<"\nФакториал факториала вашего числа равен ";
-		print(VectorFill(answ));
+		print(FactFact(VectorFill(answ)));
 		cout << '\n';
 	} while (true);
 	cout << "До новых встреч!";
